@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4A3100CB2DCC5DB400E12F2C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A3100CA2DCC5DAE00E12F2C /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		4A3100CA2DCC5DAE00E12F2C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4A7C1BC42DC4798200C2ECF4 /* grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -21,6 +26,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4A3100D72DCC5FCA00E12F2C /* assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assets;
+			sourceTree = "<group>";
+		};
 		4A7C1BC62DC4798200C2ECF4 /* grocery */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -45,8 +55,10 @@
 		4A7C1BBB2DC4798200C2ECF4 = {
 			isa = PBXGroup;
 			children = (
+				4A3100CA2DCC5DAE00E12F2C /* README.md */,
 				4A7C1BC62DC4798200C2ECF4 /* grocery */,
 				4A7C1BC52DC4798200C2ECF4 /* Products */,
+				4A3100D72DCC5FCA00E12F2C /* assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +86,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				4A3100D72DCC5FCA00E12F2C /* assets */,
 				4A7C1BC62DC4798200C2ECF4 /* grocery */,
 			);
 			name = grocery;
@@ -122,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3100CB2DCC5DB400E12F2C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

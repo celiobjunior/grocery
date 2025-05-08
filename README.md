@@ -13,7 +13,6 @@ This project demonstrates the following iOS development concepts:
 
 ## Screenshot
 
-![Login Screen Preview](assets/demo.png)
+<img src="assets/demo.png" width="40%" alt="Login Screen Preview">
 
-![Login Screen Preview](assets/demo.gif)
-
+<img src="assets/demo.gif" width="90%" alt="Login Screen Preview">

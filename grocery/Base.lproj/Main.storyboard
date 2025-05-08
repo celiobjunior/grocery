@@ -91,19 +91,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bcC-mM-dwL" secondAttribute="trailing" constant="32" id="3FB-9L-dRK"/>
-                            <constraint firstItem="bcC-mM-dwL" firstAttribute="top" secondItem="1zJ-G8-uZy" secondAttribute="bottom" constant="16" id="5A8-SK-EUC"/>
-                            <constraint firstItem="bcC-mM-dwL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="7Bf-Yu-MJf"/>
                             <constraint firstItem="o3r-xd-aBQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8vR-Kp-12v"/>
                             <constraint firstItem="z0N-Ta-Dnw" firstAttribute="top" secondItem="sDF-Iq-RZO" secondAttribute="bottom" constant="64" id="D1e-9q-7qN"/>
                             <constraint firstItem="1zJ-G8-uZy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GOs-bl-vjh"/>
                             <constraint firstItem="o3r-xd-aBQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OOq-BL-SNV"/>
                             <constraint firstItem="1zJ-G8-uZy" firstAttribute="top" secondItem="o3r-xd-aBQ" secondAttribute="bottom" constant="32" id="Omv-gp-K72"/>
                             <constraint firstItem="o3r-xd-aBQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="P0D-o5-EuK"/>
+                            <constraint firstItem="bcC-mM-dwL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="PER-cr-rVD"/>
+                            <constraint firstItem="bcC-mM-dwL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sfi-T0-Ve1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bcC-mM-dwL" secondAttribute="trailing" constant="32" id="SiV-4D-fiN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sDF-Iq-RZO" secondAttribute="trailing" constant="32" id="Sq8-wc-iou"/>
                             <constraint firstItem="1zJ-G8-uZy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Xt0-dc-uba"/>
                             <constraint firstItem="sDF-Iq-RZO" firstAttribute="top" secondItem="bcC-mM-dwL" secondAttribute="bottom" constant="16" id="fbh-EA-o2G"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1zJ-G8-uZy" secondAttribute="trailing" constant="32" id="hdV-6p-I5f"/>
+                            <constraint firstItem="bcC-mM-dwL" firstAttribute="top" secondItem="1zJ-G8-uZy" secondAttribute="bottom" constant="16" id="huQ-JD-sYj"/>
                             <constraint firstItem="o3r-xd-aBQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ser-AQ-Orf"/>
                             <constraint firstItem="z0N-Ta-Dnw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="sn9-4j-VHC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z0N-Ta-Dnw" secondAttribute="trailing" constant="32" id="uVc-Jp-Ueo"/>
