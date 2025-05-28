@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     
     func setLayout()
     {
+        loginTextField.placeholder = "e-mail or username"
+        passwordTextField.placeholder = "senha"
+        passwordTextField.isSecureTextEntry = true
         // button
         loginButton.layer.cornerRadius = 28
         

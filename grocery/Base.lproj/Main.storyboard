@@ -68,7 +68,7 @@
                                     <constraint firstItem="cHe-Mo-ecZ" firstAttribute="top" secondItem="oOw-5o-yqm" secondAttribute="bottom" constant="8" id="s02-n8-zTj"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="e-mail or username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1zJ-G8-uZy">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1zJ-G8-uZy">
                                 <rect key="frame" x="32" y="397" width="329" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="Yzc-tj-CpE"/>
@@ -82,7 +82,7 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="senha" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bcC-mM-dwL">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bcC-mM-dwL">
                                 <rect key="frame" x="32" y="461" width="329" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="R1d-nh-xiN"/>
@@ -219,9 +219,7 @@
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="XZp-ZB-gaQ">
                             <connections>
                                 <action selector="addButton:" destination="kaW-gg-wPP" id="I7T-2L-JPf"/>
-                                <segue destination="ulV-xu-SLE" kind="popoverPresentation" identifier="" popoverAnchorBarButtonItem="XZp-ZB-gaQ" id="Sjw-pr-M9w">
-                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                </segue>
+                                <segue destination="ulV-xu-SLE" kind="presentation" identifier="" id="Sjw-pr-M9w"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -308,10 +306,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addListButton" destination="3Ni-G1-Y39" id="3Rt-7t-euN"/>
-                        <outlet property="descTF" destination="rsq-Ve-ngh" id="8Z2-aw-Kfm"/>
-                        <outlet property="nameTF" destination="fRK-ZP-AMa" id="el6-3k-7lO"/>
-                        <outlet property="quantityTF" destination="Raj-fi-OLd" id="TWe-8h-bT0"/>
+                        <outlet property="addListButton" destination="3Ni-G1-Y39" id="xrm-xb-DvZ"/>
+                        <outlet property="descTF" destination="rsq-Ve-ngh" id="l5z-ZK-Gvg"/>
+                        <outlet property="nameTF" destination="fRK-ZP-AMa" id="wV9-w5-T2m"/>
+                        <outlet property="quantityTF" destination="Raj-fi-OLd" id="pRY-B6-EUy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mWG-Ps-LrE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -20,6 +20,14 @@ class TableViewController: UIViewController
         self.navigationItem.leftBarButtonItem = editButtonItem
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        // Cria uma instância de UINavigationBarAppearance para configurar a aparência da barra de navegação
+        let navBarAppearance = UINavigationBarAppearance( )
+        // Define a cor de fundo da barra de navegação como a cor nomeada "TIC-Green"
+        navBarAppearance.backgroundColor = UIColor (named: "TIC-Green" )
+        // Define a cor da sombra da barra de navegação como transparente
+        navBarAppearance.shadowColor = UIColor.clear
+         // Define a aparência da barra de navegação
+         self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
     }
     
     override func setEditing(_ editing: Bool, animated: Bool) {
@@ -36,13 +44,6 @@ class TableViewController: UIViewController
 
 extension TableViewController: UITableViewDelegate
 {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
-    {
-        let content = groceryProducts.getProduct(from: indexPath)
-        content.isSelected.toggle()
-        tableView.reloadData()
-    }
-    
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
     {
         let contextItem = UIContextualAction(
@@ -80,8 +81,6 @@ extension TableViewController: UITableViewDataSource
         cell.titleLabel?.text = content.name
         cell.subtitleLabel?.text = content.desc
         cell.quantityLabel?.text = "\(content.quantity)"
-        cell.accessoryType = content.isSelected ? .checkmark : .none
-        cell.selectionStyle = .none
         
         return cell
     }
@@ -92,7 +91,5 @@ extension TableViewController: AddProductDelegate
     func addProduct(product: Product) {
         self.groceryProducts.addProduct(product)
         self.tableView.reloadData()
-        print("entrou no add product")
-        print(product)
     }
 }

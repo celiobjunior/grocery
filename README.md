@@ -1,12 +1,19 @@
-# Grocery App Login Screen
+# Grocery App
 
-A simple login screen for a grocery app built with Swift.
+A simple login grocery app built with Swift and UIKit.
 
-This project was developed as an activity for the course "Introdução ao desenvolvimento mobile (iOS)" from TIC em Trilhas platform, Module 3.
+This project was developed as an activity for the course "Introdução ao desenvolvimento mobile (iOS)" from TIC em Trilhas platform, Module 4.
+
+## Visualization
+
+<img src="assets/demo.gif" width="50%" alt="App Preview">
 
 ## Specifications
 
-<img src="assets/specifications.png" width="80%" alt="Login Screen Specifications">
+<img src="assets/spec1.png" width="80%" alt="Login Screen Specifications">
+<img src="assets/spec2.png" width="80%" alt="Login Screen Specifications">
+<img src="assets/spec3.png" width="80%" alt="Login Screen Specifications">
+<img src="assets/spec4.png" width="80%" alt="Login Screen Specifications">
 
 ## Implementation Knowledge Used
 
@@ -16,9 +23,9 @@ This project demonstrates the following iOS development concepts:
 - **Outlets and Actions**: Connecting UI elements to Swift code for each component
 - **Auto Layout and Constraints**: Responsive design that adapts to different screen sizes
 - **Stack Views**: Organized layout management for simplified interface design
+- **Optionals**
+- **Navigation Controller**
+- **Protocols, Delegates and Extensions**
+- **Table View**
 
-## Visualization
 
-<img src="assets/demo.png" width="40%" alt="Login Screen Preview">
-
-<img src="assets/demo.gif" width="90%" alt="Login Screen Preview">

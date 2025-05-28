@@ -21,6 +21,25 @@ class AddProductController: UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.nameTF.delegate = self
+        self.descTF.delegate = self
+        self.quantityTF.delegate = self
+        
+        nameTF.placeholder = "name"
+        descTF.placeholder = "description"
+        quantityTF.placeholder = "quantity"
+
+        // Verifica se o dispositivo suporta a versão mínima do iOS (iOS 15) e configura a apresentação modal com base nisso
+        if #available(iOS 15.0, *),
+            let sheet = self.sheetPresentationController {
+
+                // Define as alturas de detenção disponíveis para a apresentação modal
+                sheet.detents = [.medium(), . large()]
+            
+                // Define se a alça de arrasto será exibida na apresentação modal
+                sheet.prefersGrabberVisible = true
+        }
     }
 
     @IBAction func addNewProduct(_ sender: Any) {
@@ -45,12 +64,14 @@ class AddProductController: UIViewController
             quantity: quantity
         )
         
-        print(newProduct)
-        
         nameTF.text = ""
         descTF.text = ""
         quantityTF.text = ""
         
         delegate?.addProduct(product: newProduct)
      }
+}
+
+extension AddProductController: UITextFieldDelegate
+{
 }
