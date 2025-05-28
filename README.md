@@ -6,14 +6,14 @@ This project was developed as an activity for the course "Introdução ao desenv
 
 ## Visualization
 
-<img src="assets/demo.gif" width="50%" alt="App Preview">
+<img src="assets/demo.gif" width="40%" alt="App Preview">
 
 ## Specifications
 
-<img src="assets/spec1.png" width="80%" alt="Login Screen Specifications">
-<img src="assets/spec2.png" width="80%" alt="Login Screen Specifications">
-<img src="assets/spec3.png" width="80%" alt="Login Screen Specifications">
-<img src="assets/spec4.png" width="80%" alt="Login Screen Specifications">
+<img src="assets/spec1.png" width="60%" alt="Login Screen Specifications">
+<img src="assets/spec2.png" width="60%" alt="Login Screen Specifications">
+<img src="assets/spec3.png" width="60%" alt="Login Screen Specifications">
+<img src="assets/spec4.png" width="60%" alt="Login Screen Specifications">
 
 ## Implementation Knowledge Used
 
